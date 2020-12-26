@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="js/hello.js"></script>
+</head>
+
+<body>
+    <h1>¿Cual es tu nombre?</h1>
+    <P id="greeting">Buenas Noches,</P>
+    <section class="content-center">
+        <button class="button-primary">Tu Nombre</button>
+    </section>
+    <script>
+        let btn;
+        btn = document.querySelector("button");
+        btn.addEventListener("click", saludar);
+    </script>
+</body>
+
+</html>
